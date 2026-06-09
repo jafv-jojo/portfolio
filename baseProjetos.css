@@ -1,0 +1,88 @@
+body{
+    background-image: url(https://wallpapers.com/images/hd/windows-7-background-imfecqv6cnsicbx4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    min-height: 40vh;
+    background-position: center;
+    padding: 20px;
+}
+
+.caixa-central{
+    position: relative;
+    width: 700px;
+    background-position: center;
+    background-color: rgb(255, 250, 240, 0.90);
+    align-content: center;
+    border-radius: 19px;
+    color:rgb(22, 19, 13);
+    margin: 1% auto 0 auto;
+    padding: 20px;
+    flex-direction: column;
+    gap: 10px;
+    animation: animacao-caixa 2.4s ease-out forwards;
+}
+.texto{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+    .texto p{
+        flex: 1;
+        margin: 0;
+        text-align: left;
+        padding-left: 58px;
+    }
+
+.projetos {
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+    .projetos img{
+        width: 80%;
+        transition: 0.3s;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+    }
+    .projetos a{
+        display: flex;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+
+    .projetos img:hover{
+        transform: scale(1.07)  rotate(1deg)
+    }
+
+
+center img{
+    border-radius: 8px; /*500x280*/
+    height: 150px;
+}
+
+
+p, li, h3, h4, a{
+    font-family: "Mozilla Text", sans-serif;
+}
+
+h1, h2 {
+    font-family: "Mozilla Text", sans-serif;
+    align-self: center;
+}
+/*
+@keyframes animacao-caixa { 
+   from {
+        opacity: 0;
+        transform: translateY(60px);
+       }
+
+    to {    
+        opacity: 100;
+        transform: translateY(0);
+        }
+    }
